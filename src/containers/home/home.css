@@ -1,0 +1,24 @@
+
+section {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 29%;
+}
+
+.slider {
+    animation: marquee 8s linear infinite;
+}
+
+@keyframes slider {
+    from {
+		transform: translateY(-100%);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
